@@ -7,7 +7,7 @@
  *
  * Return: Always (Success)
  */
-nt main(void)
+int main(void)
 {
     int n;
 
