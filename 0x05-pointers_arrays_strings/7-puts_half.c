@@ -14,7 +14,7 @@ str++;
 i = i / 2;
 
 for (i = i; i != 0; i--)
-_putchar(*(str - i));
+putchar(*(str - i));
 
-_putchar('\n');
+putchar('\n');
 }
