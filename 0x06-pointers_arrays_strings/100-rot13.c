@@ -11,7 +11,7 @@ void print_number(int n)
 int cont = 1, num = n;
 
 if (n < 0)
-_putchar('-');
+putchar('-');
 
 while (num / 10 != 0)
 {
@@ -21,7 +21,7 @@ num = num / 10;
 
 while ((n / cont != 0) && (cont != 1))
 {
-_putchar(abs((n / cont)) + '0');
+putchar(abs((n / cont)) + '0');
 
 n = n % cont;
 
@@ -30,7 +30,7 @@ cont = cont / 10;
 
 while ((abs(n) < cont) &&(cont > 1))
 {
-_putchar('0');
+putchar('0');
 cont = cont / 10;
 }
 }
